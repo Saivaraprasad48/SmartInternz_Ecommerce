@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoe Store - Running shoes</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/20c5629a29.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="cart-container">
+      <div>
+        <div class="nav-container">
+          <nav class="navbar navbar-expand-lg navbar-light fixed">
+            <a class="navbar-brand ml-md-5" href="#">
+              <img
+                class="navbar-logo"
+                src="https://previews.123rf.com/images/engabito/engabito1907/engabito190700265/126495603-shoes-store-logo-for-shoes-store-on-white-background-vector-illustration.jpg"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav m-auto">
+                <a class="nav-link ml-2 mx-md-4" href="index.html">Home</a>
+                <a class="nav-link ml-2 mx-md-4" href="index.html#categories"
+                  >Categories</a
+                >
+                <a class="nav-link ml-2 mx-md-4" href="index.html#new"
+                  >New Arrivals
+                </a>
+                <a class="nav-link ml-2 mx-md-4" href="index.html#contact"
+                  >Contact Us
+                </a>
+                <a class="nav-link ml-2 mx-md-4" id="cartBtn">
+                  <button class="btn btn-warning">
+                    Cart<span class="cart-value" id="cartValue">0</span>
+                  </button></a
+                >
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="d-flex flex-row justify-content-center align-items-center">
+          <h1 class="text-center my-4 text-decoration">Shopping Cart</h1>
+          <div class="ship-cart ml-5">
+            <p class="ship-to-cart-count"></p>
+            <button
+              class="btn btn-success"
+              id="checkout-btn"
+              onclick="checkout()"
+            >
+              Checkout
+            </button>
+          </div>
+        </div>
+        <p class="no-cart-info text-center">No Items Available</p>
+        <div
+          id="cart-items"
+          class="container d-flex flex-row justify-content-around flex-wrap my-2"
+        ></div>
+      </div>
+    </div>
+    <script src="cart.js"></script>
+  </body>
+</html>

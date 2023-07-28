@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoe Store - Performance shoes</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/20c5629a29.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <div class="nav-container">
+        <nav class="navbar navbar-expand-lg navbar-light fixed">
+          <a class="navbar-brand ml-md-5" href="#">
+            <img
+              class="navbar-logo"
+              src="https://previews.123rf.com/images/engabito/engabito1907/engabito190700265/126495603-shoes-store-logo-for-shoes-store-on-white-background-vector-illustration.jpg"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav m-auto">
+              <a class="nav-link ml-2 mx-md-4" href="index.html">Home</a>
+              <a class="nav-link ml-2 mx-md-4" href="index.html#categories"
+                >Categories</a
+              >
+              <a class="nav-link ml-2 mx-md-4" href="index.html#new"
+                >New Arrivals
+              </a>
+              <a class="nav-link ml-2 mx-md-4" href="index.html#contact"
+                >Contact Us
+              </a>
+              <a class="nav-link ml-2 mx-md-4" id="cartBtn">
+                <button class="btn btn-warning">Cart</button></a
+              >
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div>
+        <h1 class="category-heading text-center">Performance Shoes</h1>
+        <div class="container">
+          <div
+            class="d-flex flex-row justify-content-around flex-wrap flex-lg-nowrap"
+          >
+            <div class="bg shadow text-center">
+              <img
+                src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=550,height=412,quality=75,format=auto/in-resources/e671b7de-bcf9-4637-af5c-0ffe1c9d208a/Images/ProductImages/Source/1201A789_001_SR_RT_GLB.jpg"
+                alt="Product 1"
+                class="image"
+              />
+              <h4 class="product-name">GEL-KAYANO 29</h4>
+              <p class="product-info">
+                The GEL-KAYANO® 29 shoe creates a stable running experience and
+                a more responsive feel underfoot.
+              </p>
+              <p class="product-price">$49.99</p>
+              <button class="btn btn-primary add-to-cart-btn" data-id="1">
+                Add to Cart
+              </button>
+            </div>
+            <div class="bg shadow text-center">
+              <img
+                src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=550,height=412,quality=75,format=auto/in-resources/e671b7de-bcf9-4637-af5c-0ffe1c9d208a/Images/ProductImages/Source/1202A380_700_SR_RT_GLBNSW.jpg"
+                alt="Product 2"
+                class="image"
+              />
+              <h4 class="product-name">METASPEED EDGE+</h4>
+              <p class="product-info">
+                The METASPEED™ EDGE+ racing shoes are designed for cadence-style
+                runners who are looking to start fast and finish faster.
+              </p>
+              <p class="product-price">$59.99</p>
+              <button class="btn btn-primary add-to-cart-btn" data-id="2">
+                Add to Cart
+              </button>
+            </div>
+            <div class="bg shadow text-center">
+              <img
+                src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=550,height=412,quality=75,format=auto/in-resources/e671b7de-bcf9-4637-af5c-0ffe1c9d208a/Images/ProductImages/Source/1202A254_960_SR_RT_GLB1.jpg"
+                alt="Product 3"
+                class="image"
+              />
+              <h4 class="product-name">MAGIC SPEED 2</h4>
+              <p class="product-info">
+                The MAGIC SPEED™ 2 shoe offers the energy you need to move
+                towards a new personal best.
+              </p>
+              <p class="product-price">$69.99</p>
+              <button class="btn btn-primary add-to-cart-btn" data-id="3">
+                Add to Cart
+              </button>
+            </div>
+            <div class="bg shadow text-center">
+              <img
+                src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=550,height=412,quality=75,format=auto/in-resources/e671b7de-bcf9-4637-af5c-0ffe1c9d208a/Images/ProductImages/Source/1011B440_005_SR_RT_GLB.jpg"
+                alt="Product41"
+                class="image"
+              />
+              <h4 class="product-name">GEL-QUANTUM 180 VII</h4>
+              <p class="product-info">
+                "The GEL-QUANTUM 180™ VII sneaker combines a futuristic shape .
+              </p>
+              <p class="product-price">$79.99</p>
+              <button class="btn btn-primary add-to-cart-btn" data-id="4">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-row justify-content-around flex-wrap flex-lg-nowrap"
+          >
+            <div class="bg shadow text-center">
+              <img
+                src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=550,height=412,quality=75,format=auto/in-resources/e671b7de-bcf9-4637-af5c-0ffe1c9d208a/Images/ProductImages/Source/1011B547_021_SR_RT_GLB.jpg"
+                alt="Product 1"
+                class="image"
+              />
+              <h4 class="product-name">GEL-NIMBUS 25</h4>
+              <p class="product-info">
+                "The GEL-NIMBUS® 25 shoe's soft cushioning properties help you
+                feel like you're landing on clouds.
+              </p>
+              <p class="product-price">$89.99</p>
+              <button class="btn btn-primary add-to-cart-btn" data-id="5">
+                Add to Cart
+              </button>
+            </div>
+            <div class="bg shadow text-center">
+              <img
+                src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=550,height=412,quality=75,format=auto/in-resources/e671b7de-bcf9-4637-af5c-0ffe1c9d208a/Images/ProductImages/Source/1011B203_003_SR_RT_GLB.jpg"
+                alt="Product 2"
+                class="image"
+              />
+              <h4 class="product-name">GEL-KINSEI BLAST</h4>
+              <p class="product-info">
+                The Gel-Kinsei Blast Shoes Are Designed For Distance Runners
+                Seeking A Smooth Stride. .
+              </p>
+              <p class="product-price">$99.99</p>
+              <button class="btn btn-primary add-to-cart-btn" data-id="6">
+                Add to Cart
+              </button>
+            </div>
+            <div class="bg shadow text-center">
+              <img
+                src="https://storage.sg.content-cdn.io/cdn-cgi/image/%7Bwidth%7D,%7Bheight%7D,quality=75,format=auto/in-resources/e671b7de-bcf9-4637-af5c-0ffe1c9d208a/Images/ProductImages/Source/1011B592_400_SR_RT_GLB.jpg"
+                alt="Product 3"
+                class="image"
+              />
+              <h4 class="product-name">GEL-KINSEI BLAST LE 2</h4>
+              <p class="product-info">
+                The Gel-Kinsei Blast Shoes Are Designed For Distance Runners
+                Seeking A Smooth Stride.
+              </p>
+              <p class="product-price">$95.99</p>
+              <button class="btn btn-primary add-to-cart-btn" data-id="7">
+                Add to Cart
+              </button>
+            </div>
+            <div class="bg shadow text-center">
+              <img
+                src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=550,height=412,quality=75,format=auto/in-resources/e671b7de-bcf9-4637-af5c-0ffe1c9d208a/Images/ProductImages/Source/1041A298_002_SR_RT_GLB.jpg"
+                alt="Product41"
+                class="image"
+              />
+              <h4 class="product-name">SOLUTION SWIFT FF</h4>
+              <p class="product-info">
+                The Fastest Model In The Asics Tennis Range, Our Solution Speed
+                Ff 2 Shoe Is All About Helping Players Expand Their Territory On
+                The Court.
+              </p>
+              <p class="product-price">$97.99</p>
+              <button class="btn btn-primary add-to-cart-btn" data-id="8">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col mt-5">
+        <h1 class="text-center text-decoration">Follow Us</h1>
+      </div>
+      <div class="col my-4">
+        <div class="d-flex flex-row justify-content-center">
+          <div>
+            <i class="fab fa-twitter icon"></i>
+          </div>
+          <div>
+            <i class="fab fa-instagram icon"></i>
+          </div>
+          <div>
+            <i class="fab fa-facebook icon"></i>
+          </div>
+        </div>
+      </div>
+      <div id="contact" class="footer text-center p-3">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB2KOs-7ZNvx0n5c4MyoLgA_JKDOVcxhUqaSDBoknojS8mdx5VOY3TEZcBKWWEK-K2h3k&usqp=CAU"
+          class="footer-img"
+        />
+        <h5 class="footer-address py-2">ordershoe@shoeshop.com</h5>
+        <p class="footer-address">123 Hitec City, Hyderabad, India.</p>
+        <p class="footer-address">Contact details: 1800 3000 9009</p>
+      </div>
+    </div>
+    <script src="cart.js"></script>
+  </body>
+</html>

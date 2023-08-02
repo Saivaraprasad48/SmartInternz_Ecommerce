@@ -96,6 +96,20 @@ function addToCart(index) {
   const productPrice = productElement.querySelector(".product-price").innerText;
   const productImageSrc = productElement.querySelector(".image").src;
 
+  const existingProductIndex = cartItems.findIndex(
+    (item) => item.name === productName
+  );
+
+  if (existingProductIndex !== -1) {
+    const confirmation = confirm(
+      "This product is already in your cart. Do you want to add another one?"
+    );
+
+    if (!confirmation) {
+      return;
+    }
+  }
+
   const product = {
     name: productName,
     info: productInfo,
